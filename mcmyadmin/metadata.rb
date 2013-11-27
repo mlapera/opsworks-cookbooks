@@ -1,0 +1,6 @@
+maintainer        "Michael LaPera"
+license           "Apache 2.0"
+description       "Installs and configures McMyAdmin"
+version           "0.1"
+recipe            "mcmyadmin", "Main McMyAdmin configuration"
+recipe            "mcmyadmin::default", "Installs McMyAdmin"
