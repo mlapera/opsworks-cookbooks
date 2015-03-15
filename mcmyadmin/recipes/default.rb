@@ -13,6 +13,6 @@ cd /tmp
 wget http://mcmyadmin.com/Downloads/etc.zip
 sudo unzip etc.zip -d /usr/local
 echo 2 | sudo alternatives --config java
-cd /mnt/minecraft/mcmyadmin && screen -dmS  McMyAdmin ./MCMA2_Linux_x86_64
+cd /vol/minecraft/mcmyadmin && screen -dmS  McMyAdmin ./MCMA2_Linux_x86_64
 EOH
 end
