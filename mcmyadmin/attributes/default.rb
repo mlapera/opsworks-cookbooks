@@ -21,9 +21,9 @@
 default[:mcmyadmin][:remote][:mcmyadminurl] 	= 'http://mcmyadmin.com/Downloads/'
 default[:mcmyadmin][:mono][:etczip] = 'etc.zip'
 default[:mcmyadmin][:mono][:etcdir] = '/usr/local'
-default[:mcmyadmin][:dir]      			= '/mnt/minecraft/mcmyadmin'
+default[:mcmyadmin][:dir]      			= '/vol/minecraft/mcmyadmin'
 default[:mcmyadmin][:log_dir]     	= '/var/log/mcmyadmin'
-default[:mcmyadmin][:binary]      	= '/mnt/minecraft/mcmyadmin/mcmyadmin/MCMA2_Linux_x86_64'
+default[:mcmyadmin][:binary]      	= '/vol/minecraft/mcmyadmin/mcmyadmin/MCMA2_Linux_x86_64'
 default[:mcmyadmin][:init_script] 	= '/etc/init.d/mcmyadmin'
 default[:apache][:pid_file] 				= '/var/run/mcmyadmin.pid'
 
